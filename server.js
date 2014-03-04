@@ -12,7 +12,7 @@ var util		= require('util'),
 		path		= require('path'), 
 		http		= require('http'), 
 		url			= require('url'), 
-		s3Thumb	= require(path.join(__dirname, 'lib/s3-image-thumbnail/s3-thumbnail.js'));
+		s3Thumb	= require(path.join(__dirname, 'modules/s3-image-thumbnail/s3-thumbnail.js'));
 
 // load configuration
 var config  = require(path.join(__dirname, 'config.json'));
